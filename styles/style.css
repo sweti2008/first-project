@@ -144,14 +144,48 @@ font-weight: bold;
   font-weight: bold;
 }
 
+.digits {
+ 
+}
+
 .section-title {
   border: 2px solid red;
+  display: flex;
+  width: 60%;
+  margin-top: 100px;
+  align-items: center;
+  flex-direction: column;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
 }
 
 .section-subtitle {
   border: 2px solid red; 
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  align-items: center;
+  
 }
 
-.section-title {
-display: flex;
+
+.table {
+  border: 2px solid red;
+  display: flex;
+  width: 1100px;
+  flex-basis: 100%;
+  width: 0;
+}
+
+.table__cell {
+  border: 2px solid red; 
+  list-style-type: none;
+
+}
+
+.table__text {
+  border: 2px solid red;  
+  list-style-type: none;
+
 }
