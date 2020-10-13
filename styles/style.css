@@ -1,0 +1,157 @@
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  
+}
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  border: 2px solid red;
+  position: relative;
+  padding-left: 64px;
+  /* выше установили ограничения для секции */
+}
+
+.description {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.description p {
+  margin-top: 0;
+}
+
+.logo_pleace_header{
+  display: inline-block;
+  border:  2px solid red;
+  position: relative;
+  margin-top: 30px;
+}
+
+img {
+  width: 182px;
+  height: 32px;
+}
+
+.logo_pleace_header{
+line-height: 96px;
+font-size: 102x;
+font-weight: bold;
+}
+
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__square-pic {
+  border: 2px solid red;
+  background-color: #2f80ed;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  height: 568px;
+  width: 568px;
+  
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+.header__title {
+  border: 2px solid red;
+  display: flex;
+  width: 730px;
+  height: 96;
+  font-size: 102px;
+  font-weight: bold;
+}
+
+.header__subtitle {
+  position: absolute;
+  width: 388px;
+  margin-bottom: 30px;
+  border: 2px solid red;
+  line-height: 25px;
+  font-size: 18px;
+  font-style: normal;
+  bottom: 30px;
+ }
+
+  .header__main-illustration {
+  border: 2px solid red;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 765px;
+  height: 608px;
+  z-index: 1;
+  }
+
+.two-columns {
+  border: 2px solid red;
+  display: flex;
+  width: 175px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 784px;
+  width: 80%;
+  justify-content: space-between;
+  position: relative;
+  flex-direction: row;
+  
+}
+
+.two-columns__brief {
+  border: 2px solid red;
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
+  color: steelblue;
+  flex-basis: 175px;
+}
+
+.two-columns__main-text {
+  border: 2px solid red;
+  display: flex;
+  min-width: 784px;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 80%;
+}
+
+.two-columns__paragraph {
+  border: 2px solid red;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.section-title {
+  border: 2px solid red;
+}
+
+.section-subtitle {
+  border: 2px solid red; 
+}
+
+.section-title {
+display: flex;
+}
