@@ -166,6 +166,9 @@ font-weight: bold;
   margin-top: 20px;
   margin-bottom: 60px;
   align-items: center;
+  line-height: 35px;
+  font-size: 24px;
+  font-style: normal;
   
 }
 
@@ -175,17 +178,31 @@ font-weight: bold;
   display: flex;
   width: 1100px;
   flex-basis: 100%;
-  width: 0;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
+
 
 .table__cell {
   border: 2px solid red; 
   list-style-type: none;
+  width: 250px;
+  
 
+}
+
+.table__heading {
+  border: 2px solid red; 
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .table__text {
   border: 2px solid red;  
-  list-style-type: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
 }
